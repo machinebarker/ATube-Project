@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@800&family=Poppins:wght@300&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Poppins, sans-serif;
+}
+
+nav {
+	opacity: .9;
+}
+
+.search .form-search {
+	border-radius: 0%;
+	width: 600px !important;
+	outline: none;
+	box-shadow: none !important;
+	border: 1px solid #ccc !important;
+}
+
+.btn-search {
+	border-radius: 0%;
+	box-shadow: none !important;
+}
+
+.navbar-brand {
+	font-family: Kanit, sans-serif;
+	font-size: 35px;
+}
+
+.nav-link {
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.thumbnail .img-thumbnail {
+	border: none;
+}
+
+.thumbnail .img-thumbnail:hover {
+	opacity: 0.5;
+	transition: 0.5s;
+}
+
+.view-thumbnail img {
+	border: none;
+	margin-top: -4px;
+}
+
+.view-thumbnail .img-thumbnail:hover {
+	opacity: 0.5;
+	transition: 0.5s;
+}
+
+.cov-19 {
+	background-color: #255080;
+	color: white;
+	border: 1px solid gray;
+	opacity: .9;
+}
+
+.cov-19 hr {
+	background-color: #fff;
+}
+
+.darkBG {
+	background-color: #191919;
+	color: white;
+	transition: .3s ease-in;
+}
+
+.mt-login {
+	margin-top: 135px;
+}
+
+body {
+	transition: .3s ease-out;
+}
+
+.bg-black {
+	background-color: #000;
+}
+
+.top-video {
+	width: 600px;
+	height: 200px;
+}
+
+.mt-nav {
+	margin-top: 100px;
+}
+
+.mt-uploader {
+	margin-top: 95px;
+}
+
+.img-playlist {
+	border: 0px;
+	width: 200px;
+	height: 200px;
+}
+
+.img-playlist:hover {
+	opacity: .6;
+	transition: .3s;
+
+	animation: tada;
+	/* referring directly to the animation's @keyframe declaration */
+	animation-duration: 1s;
+	/* don't forget to set a duration! */
+}
+
+.img-musics {
+	border: 0px;
+	width: 80px;
+	height: 80px;
+}
+
+.play-song {
+	margin-top: 1%;
+}
+
+
+@-moz-keyframes spin {
+	from {
+		-moz-transform: rotate(0deg);
+	}
+
+	to {
+		-moz-transform: rotate(360deg);
+	}
+}
+
+.song-cover {
+	border: none;
+	width: 150px;
+	height: 150px;
+	animation-name: spin;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 6s;
+	animation-play-state: running;
+
+	-moz-animation-name: spin;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: linear;
+	-moz-animation-duration: 6s;
+	-moz-animation-play-state: running;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
